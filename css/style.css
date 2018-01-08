@@ -1,0 +1,175 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#cover {
+  background: url("../images/siluet.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30em;
+  position: relative;
+  top: -3em;
+  width: 100%;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0.75em 0.75em;
+  text-transform: uppercase;
+}
+
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  padding: 0em 1em;
+  display: none;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 9em;
+  width: 70%;
+
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  padding: .30em .25em;
+  text-align: center;
+
+}
+
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #FCA311;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  margin: 0px 0px 50px 0px;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+}
+
+.products {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.product {
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+
+}
+
+.product img {
+  width: 100%;
+  float: top;
+}
+
+
+.blue {
+  color: #14213D !important;
+}
+
+.showHide { display:none; }
+
+/* Desktop*/
+@media screen and (min-width: 768px) {
+  .showHide  { display: block; }
+
+  .product {display: inline-block; width: 45%;}
+
+  #logo {display: inline-block;}
+}
+
+
+
+input {
+  padding: 2%:
+}
+
+
+
+
+
+
+
+/*
+
+//Mobile First
+body {background-color: red; }
+
+//Go bigger with min-width
+@media screen and (min-width: 600px) {
+body {background-color: blue; }
+}
+
+@media screen and (min-width: 1200px) {
+body {background-color: green; }
+}
+*/

@@ -102,6 +102,13 @@ a {
   color: inherit;
 }
 
+footer {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 8px;
+  text-align: center;
+}
+
 .btn {
   background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   background-color: #14213D;
@@ -111,7 +118,7 @@ a {
   padding: 14px;
 }
 
-.products {
+.main {
   background: #EEEFF1;
   box-sizing: border-box;
   width: 90%;
@@ -120,13 +127,13 @@ a {
   text-align: center;
 }
 
-.product {
+.part {
   margin: 0px 2% 80px 2%;
   text-align: center;
 
 }
 
-.product img {
+.part img {
   width: 100%;
   float: top;
 }
@@ -142,21 +149,10 @@ a {
 @media screen and (min-width: 768px) {
   .showHide  { display: block; }
 
-  .product {display: inline-block; width: 45%;}
+  .part {display: inline-block; width: 45%;}
 
   #logo {display: inline-block;}
 }
-
-
-
-input {
-  padding: 2%:
-}
-
-
-
-
-
 
 
 /*
